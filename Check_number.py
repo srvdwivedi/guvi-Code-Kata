@@ -5,5 +5,5 @@ def number(num):
         print("Zero")
     else:
         print("Negative")
-               
+num = int(input())      
 print(number(num))
