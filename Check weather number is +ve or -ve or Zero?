@@ -1,0 +1,33 @@
+#############simple_postive_or_negative############### 
+
+def number(num):
+    if num > 0:
+        print("+")
+    elif num == 0:
+        print("Zero")
+    else:
+        print("-")
+        
+        
+print(number('saurav'))
+
+
+
+###########################################################################################################################################
+
+def number(num):
+    try:
+        num = int(input('Enter: '))
+    except ValueError:
+        print("ONLY INTERGERS ARE ALLOWED")
+    else:
+        print("done")
+    
+    if num > 0:
+        print("+")
+    elif num == 0:
+        print("Zero")
+    else:
+        print("-")
+               
+print(number(num))
