@@ -2,11 +2,11 @@
 
 def number(num):
     if num > 0:
-        print("+")
+        print("Positive")
     elif num == 0:
         print("Zero")
     else:
-        print("-")
+        print("Negative")
         
         
 print(number('saurav'))
