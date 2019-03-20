@@ -1,13 +1,13 @@
-def number():
-    try:
-        num=int(input())
-           
-        if(num % 2 == 0):
-            print("Even")
-        elif num < 0:
-            print("invalid")
-        else:
-            print("Odd")
-    except ValueError as e:
+def vowelOrConsonant(x): 
+    if (x == 'a' or x == 'e' or x == 'i' or 
+        x == 'o' or x == 'u' or x == 'A' or 
+        x == 'E' or x == 'I' or x == 'O' or 
+        x == 'U'): 
+        print("Vowel") 
+    elif (x>="a" and x<="z") or (x>="A" and x<="Z"):
+        print("Consonant")
+    else:
         print("invalid")
-number()
+        
+x = input()
+vowelOrConsonant(x) 
