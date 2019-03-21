@@ -7,4 +7,4 @@ def leap():
             print("no")
     except ValueError:
         print("invalid")
-print(leap())
+leap()
