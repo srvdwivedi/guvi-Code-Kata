@@ -1,3 +1,3 @@
-N = int(input())
-K = int(input())
-print(str(N**K))
+num =int(input("Number: "))
+exp=int(input("Power: "))
+print(str(num**exp))
