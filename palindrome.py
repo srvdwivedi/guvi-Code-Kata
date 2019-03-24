@@ -1,4 +1,4 @@
-num =int(input("Number: "))
+num =int(input())
 str1=""
 while num>0:
     str1= str1+(str(num%10))
