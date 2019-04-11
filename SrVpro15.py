@@ -1,10 +1,10 @@
-n=int(input())
-a=[int(i) for i in input().split()]
-for i in range(0,n):
-    for j in range(i+1,n):
-        if a[i]<a[j]:
-            temp=a[i]
-            a[i]=a[j]
-            a[j]=temp
-for i in a:
+m=int(input())
+c=[int(i) for i in input().split()]
+for i in range(0,m):
+    for j in range(i+1,m):
+        if c[i]<c[j]:
+            temp=c[i]
+            c[i]=c[j]
+            c[j]=temp
+for i in c:
     print(i)
