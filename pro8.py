@@ -5,7 +5,7 @@ ar=[int(i) for i in input().split()]
 
 w=[]
 z=[]
-for i in range(0,q):
+for i in range(0,r):
     a,b=input().split()
     w.append(a)
     z.append(b)
