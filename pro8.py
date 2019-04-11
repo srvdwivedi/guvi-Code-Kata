@@ -11,7 +11,7 @@ for i in range(0,r):
     z.append(b)
 
 
-for i in range(0,q):
+for i in range(0,r):
     s=int(w[i])-1
 
     t=int(z[i])-1
