@@ -18,4 +18,4 @@ for i in range(0,r):
     t=int(y[i])-1
     for j in range(s,t+1):
         sum=sum+ar[j]
-    print(sum)
+      print(sum,end=" ")
