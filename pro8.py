@@ -1,6 +1,6 @@
 m,r=input().split()
-m=int(n)
-r=int(q)
+m=int(m)
+r=int(r)
 ar=[int(i) for i in input().split()]
 
 w=[]
