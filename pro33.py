@@ -1,5 +1,5 @@
 fis=str(input())
-a=len(f[::-1])
+a=len(fis[::-1])
 li=[]
 vi=[]
 wi=[]
