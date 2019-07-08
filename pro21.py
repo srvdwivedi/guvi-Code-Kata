@@ -10,4 +10,4 @@ for i in range(1,ana):
 if(cac>=1):
     print("yes")
 else:
-    print("no"
+    print("no")
