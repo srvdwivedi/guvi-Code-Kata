@@ -10,4 +10,4 @@ for i in range(len(a01)):
 if(len(l)==26):
     print("yes")
 else:
-    print("no"
+    print("no")
