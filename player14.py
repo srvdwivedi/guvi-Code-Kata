@@ -1,9 +1,10 @@
-s = input()
-vol = ['a','e','i','o','u','A','E','I','O','U']
+size = int(input())
+stri = input()
 res = []
-for i in s:
-    if i not in vol:
-        res.append(i)
-r=res[::-1]
-for i in r:
-    print(i,end="")
+
+vol = ['a','e','i','o','u','A','E','I','O','U']
+for i in stri:
+    if i in vol:
+        stri = stri.replace(i,"")
+print(stri[::-1])
+
